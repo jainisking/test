@@ -1,0 +1,421 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.inn</groupId>
+	<artifactId>myproject</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.2.5.RELEASE</version>
+	</parent>
+
+	<name>myproject</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+
+		<!-- https://mvnrepository.com/artifact/javax.mail/javax.mail-api -->
+<dependency>
+    <groupId>javax.mail</groupId>
+    <artifactId>javax.mail-api</artifactId>
+    <version>1.6.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.thoughtworks.paranamer/paranamer -->
+<dependency>
+    <groupId>com.thoughtworks.paranamer</groupId>
+    <artifactId>paranamer</artifactId>
+    <version>2.3</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.vividsolutions/jts -->
+<dependency>
+    <groupId>com.vividsolutions</groupId>
+    <artifactId>jts</artifactId>
+    <version>1.13</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.ximpleware/vtd-xml -->
+<dependency>
+    <groupId>com.ximpleware</groupId>
+    <artifactId>vtd-xml</artifactId>
+    <version>2.11</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.squareup.okhttp/okhttp -->
+<dependency>
+    <groupId>com.squareup.okhttp</groupId>
+    <artifactId>okhttp</artifactId>
+    <version>2.7.5</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/cz.jirutka.rsql/rsql-parser -->
+<dependency>
+    <groupId>cz.jirutka.rsql</groupId>
+    <artifactId>rsql-parser</artifactId>
+    <version>2.1.0</version>
+</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-core -->
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-core</artifactId>
+			<version>5.2.2.RELEASE</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.10</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.coveo</groupId>
+			<artifactId>feign-error-decoder</artifactId>
+			<version>1.4.0</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-autoconfigure</artifactId>
+			<version>2.2.0.RELEASE</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-jasper -->
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-jasper</artifactId>
+			<version>9.0.31</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+<!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+<dependency>
+    <groupId>org.aspectj</groupId>
+    <artifactId>aspectjweaver</artifactId>
+    <version>1.9.5</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+<dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.8.6</version>
+</dependency>
+
+<!-- LGPLv2.0 https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.19</version>
+</dependency>
+
+
+<!-- LGPL  https://mvnrepository.com/artifact/net.sf.jasperreports/jasperreports -->
+<dependency>
+    <groupId>net.sf.jasperreports</groupId>
+    <artifactId>jasperreports</artifactId>
+    <version>6.10.0</version>
+</dependency>
+
+<!-- LGPL2.1 https://mvnrepository.com/artifact/org.jfree/jcommon -->
+<dependency>
+    <groupId>org.jfree</groupId>
+    <artifactId>jcommon</artifactId>
+    <version>1.0.17</version>
+</dependency>
+
+<!--LGPLv2.1 https://mvnrepository.com/artifact/org.jrobin/jrobin -->
+<dependency>
+    <groupId>org.jrobin</groupId>
+    <artifactId>jrobin</artifactId>
+    <version>1.5.9</version>
+</dependency>
+
+<!-- GPLv2 https://mvnrepository.com/artifact/org.bytedeco/javacpp -->
+<dependency>
+    <groupId>org.bytedeco</groupId>
+    <artifactId>javacpp</artifactId>
+    <version>1.2.2</version>
+</dependency>
+
+<!-- CDDL + GPLv2 with classpath exception https://mvnrepository.com/artifact/org.glassfish.hk2/hk2-api -->
+<dependency>
+    <groupId>org.glassfish.hk2</groupId>
+    <artifactId>hk2-api</artifactId>
+    <version>2.6.1</version>
+</dependency>
+
+<!-- CDDLv1.1 https://mvnrepository.com/artifact/javax.annotation/javax.annotation-api -->
+<dependency>
+    <groupId>javax.annotation</groupId>
+    <artifactId>javax.annotation-api</artifactId>
+    <version>1.2</version>
+</dependency>
+
+<!-- CDDL+GPL- https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-client -->
+<dependency>
+    <groupId>org.glassfish.jersey.core</groupId>
+    <artifactId>jersey-client</artifactId>
+    <version>2.18</version>
+</dependency>
+
+<!-- MPLv1- https://mvnrepository.com/artifact/com.rabbitmq/amqp-client -->
+<dependency>
+    <groupId>com.rabbitmq</groupId>
+    <artifactId>amqp-client</artifactId>
+    <version>5.7.3</version>
+</dependency>
+
+<!-- MPLv1.1- https://mvnrepository.com/artifact/org.javassist/javassist -->
+<dependency>
+    <groupId>org.javassist</groupId>
+    <artifactId>javassist</artifactId>
+    <version>3.19.0-GA</version>
+</dependency>
+
+
+<!-- MPLv2- https://mvnrepository.com/artifact/com.h2database/h2 -->
+<dependency>
+    <groupId>com.h2database</groupId>
+    <artifactId>h2</artifactId>
+    <version>1.0.60</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- CC0v1 https://mvnrepository.com/artifact/com.github.stephenc.high-scale-lib/high-scale-lib -->
+<dependency>
+    <groupId>com.github.stephenc.high-scale-lib</groupId>
+    <artifactId>high-scale-lib</artifactId>
+    <version>1.1.4</version>
+</dependency>
+
+<!-- EPLv1 https://mvnrepository.com/artifact/org.mortbay.jetty/jetty -->
+<dependency>
+    <groupId>org.mortbay.jetty</groupId>
+    <artifactId>jetty</artifactId>
+    <version>6.1.26</version>
+</dependency>
+
+<!-- Apache2 https://mvnrepository.com/artifact/org.xerial.snappy/snappy-java -->
+<dependency>
+    <groupId>org.xerial.snappy</groupId>
+    <artifactId>snappy-java</artifactId>
+    <version>1.1.1.7</version>
+</dependency>
+
+<!-- Apache1.1 https://mvnrepository.com/artifact/sslext/sslext -->
+<dependency>
+    <groupId>sslext</groupId>
+    <artifactId>sslext</artifactId>
+    <version>1.2-0</version>
+</dependency>
+
+<!-- Apache2 + BSD3 https://mvnrepository.com/artifact/org.scala-lang/scala-compiler -->
+<dependency>
+    <groupId>org.scala-lang</groupId>
+    <artifactId>scala-compiler</artifactId>
+    <version>2.13.2</version>
+</dependency>
+
+<!-- BSD https://mvnrepository.com/artifact/org.scala-lang/scala-actors -->
+<dependency>
+    <groupId>org.scala-lang</groupId>
+    <artifactId>scala-actors</artifactId>
+    <version>2.10.4</version>
+</dependency>
+
+<!-- BSD3 https://mvnrepository.com/artifact/org.antlr/antlr -->
+<dependency>
+    <groupId>org.antlr</groupId>
+    <artifactId>antlr</artifactId>
+    <version>3.0</version>
+</dependency>
+
+<!-- BSD2 https://mvnrepository.com/artifact/org.hdrhistogram/HdrHistogram -->
+<dependency>
+    <groupId>org.hdrhistogram</groupId>
+    <artifactId>HdrHistogram</artifactId>
+    <version>2.1.12</version>
+</dependency>
+
+<!--MIT https://mvnrepository.com/artifact/org.itadaki/bzip2 -->
+<dependency>
+    <groupId>org.itadaki</groupId>
+    <artifactId>bzip2</artifactId>
+    <version>0.9.1</version>
+</dependency>
+
+<!-- ISC https://mvnrepository.com/artifact/org.webjars.npm/circular-dependency-plugin -->
+<dependency>
+    <groupId>org.webjars.npm</groupId>
+    <artifactId>circular-dependency-plugin</artifactId>
+    <version>3.0.0</version>
+</dependency>
+
+<!-- GO https://mvnrepository.com/artifact/com.google.re2j/re2j -->
+<dependency>
+    <groupId>com.google.re2j</groupId>
+    <artifactId>re2j</artifactId>
+    <version>1.2</version>
+</dependency>
+
+<!-- HSQL https://mvnrepository.com/artifact/org.hsqldb/hsqldb -->
+<dependency>
+    <groupId>org.hsqldb</groupId>
+    <artifactId>hsqldb</artifactId>
+    <version>1.8.0.10</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- JSON https://mvnrepository.com/artifact/org.json/json -->
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20090211</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.jdom/jdom -->
+<dependency>
+    <groupId>org.jdom</groupId>
+    <artifactId>jdom</artifactId>
+    <version>1.1</version>
+</dependency>
+
+
+<!--JCR https://mvnrepository.com/artifact/javax.jcr/jcr -->
+    <groupId>javax.jcr</groupId>
+    <artifactId>jcr</artifactId>
+    <version>2.0</version>
+    <scope>provided</scope>
+</dependency>
+
+<!-- Jtidy https://mvnrepository.com/artifact/net.sf.jtidy/jtidy -->
+<dependency>
+    <groupId>net.sf.jtidy</groupId>
+    <artifactId>jtidy</artifactId>
+    <version>r938</version>
+</dependency>
+
+<!-- CPLv1 https://mvnrepository.com/artifact/wsdl4j/wsdl4j -->
+<dependency>
+    <groupId>wsdl4j</groupId>
+    <artifactId>wsdl4j</artifactId>
+    <version>1.6.3</version>
+</dependency>
+
+<!-- OGC https://mvnrepository.com/artifact/org.opengis/geoapi -->
+<dependency>
+    <groupId>org.opengis</groupId>
+    <artifactId>geoapi</artifactId>
+    <version>3.0.1</version>
+</dependency>
+
+
+<!-- OIPA type not found https://mvnrepository.com/artifact/relaxngDatatype/relaxngDatatype -->
+<dependency>
+    <groupId>relaxngDatatype</groupId>
+    <artifactId>relaxngDatatype</artifactId>
+    <version>20020414</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/de.svenkubiak/jBCrypt -->
+<dependency>
+    <groupId>de.svenkubiak</groupId>
+    <artifactId>jBCrypt</artifactId>
+    <version>0.4.1</version>
+</dependency>
+
+<!-- RAR https://mvnrepository.com/artifact/com.github.junrar/junrar -->
+<dependency>
+    <groupId>com.github.junrar</groupId>
+    <artifactId>junrar</artifactId>
+    <version>4.0.0</version>
+</dependency>
+
+<!-- Bouncy Castle https://mvnrepository.com/artifact/org.bouncycastle/bcpkix-jdk15on -->
+<dependency>
+    <groupId>org.bouncycastle</groupId>
+    <artifactId>bcpkix-jdk15on</artifactId>
+    <version>1.47</version>
+</dependency>
+
+<!-- Xstream https://mvnrepository.com/artifact/com.thoughtworks.xstream/xstream -->
+<dependency>
+    <groupId>com.thoughtworks.xstream</groupId>
+    <artifactId>xstream</artifactId>
+    <version>1.4.11.1</version>
+</dependency>
+
+<!-- dom4j? https://mvnrepository.com/artifact/org.glassfish.hk2/spring-bridge -->
+<dependency>
+    <groupId>org.glassfish.hk2</groupId>
+    <artifactId>spring-bridge</artifactId>
+    <version>2.6.1</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/com.ibm.icu/icu4j -->
+<dependency>
+    <groupId>com.ibm.icu</groupId>
+    <artifactId>icu4j</artifactId>
+    <version>60.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.rabbitmq/amqp-client -->
+<dependency>
+    <groupId>com.rabbitmq</groupId>
+    <artifactId>amqp-client</artifactId>
+    <version>5.9.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/ca.uhn.hapi/hapi-base -->
+<dependency>
+    <groupId>ca.uhn.hapi</groupId>
+    <artifactId>hapi-base</artifactId>
+    <version>2.3</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/javax.jcr/jcr -->
+<dependency>
+    <groupId>javax.jcr</groupId>
+    <artifactId>jcr</artifactId>
+    <version>2.0</version>
+    <scope>provided</scope>
+</dependency>
+
+
+
+
+
+
+
+	</dependencies>
+<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>
