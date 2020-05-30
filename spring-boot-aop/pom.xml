@@ -305,11 +305,6 @@
 
 
 <!--JCR https://mvnrepository.com/artifact/javax.jcr/jcr -->
-    <groupId>javax.jcr</groupId>
-    <artifactId>jcr</artifactId>
-    <version>2.0</version>
-    <scope>provided</scope>
-</dependency>
 
 <!-- Jtidy https://mvnrepository.com/artifact/net.sf.jtidy/jtidy -->
 <dependency>
