@@ -408,6 +408,12 @@
 
 
 
+<!-- https://mvnrepository.com/artifact/org.peimari/g-leaflet-googlemutant -->
+<dependency>
+    <groupId>org.peimari</groupId>
+    <artifactId>g-leaflet-googlemutant</artifactId>
+    <version>1.0.0</version>
+</dependency>
 
 	</dependencies>
 <build>
