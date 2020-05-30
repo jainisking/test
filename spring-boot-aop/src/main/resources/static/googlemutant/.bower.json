@@ -1,0 +1,12 @@
+{
+  "name": "googlemutant",
+  "_release": "6b40050a1e",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "6b40050a1e314bcdc0c55db37c9eb4c4b2d9ee7f"
+  },
+  "_source": "https://gitlab.com/IvanSanchez/Leaflet.GridLayer.GoogleMutant.git",
+  "_target": "master",
+  "_originalSource": "https://gitlab.com/IvanSanchez/Leaflet.GridLayer.GoogleMutant.git"
+}
