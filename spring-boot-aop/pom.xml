@@ -2721,7 +2721,7 @@
 
     <artifactId>libthrift</artifactId>
 
-    <version>0.9.0</version>
+    <version>0.12.0</version>
 
     <type>pom</type>
 
