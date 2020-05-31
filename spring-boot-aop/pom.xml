@@ -5964,12 +5964,12 @@
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.soulwing.snmp/tnm4j -->
-<dependency>
+<!--<dependency>
     <groupId>org.soulwing.snmp</groupId>
     <artifactId>tnm4j</artifactId>
     <version>1.0.0</version>
 </dependency>
-
+-->
 <!-- https://mvnrepository.com/artifact/com.typesafe.scala-logging/scala-logging -->
 <dependency>
     <groupId>com.typesafe.scala-logging</groupId>
