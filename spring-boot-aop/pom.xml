@@ -417,12 +417,12 @@
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.webjars.bower/fontawesome -->
-<dependency>
+<!--<dependency>
     <groupId>org.webjars.bower</groupId>
     <artifactId>fontawesome</artifactId>
     <version>4.7.0</version>
 </dependency>
-
+-->
 
 
 
