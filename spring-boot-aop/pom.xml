@@ -1671,7 +1671,7 @@
 
     <artifactId>nimbus-jose-jwt</artifactId>
 
-    <version>4.41.1</version>
+    <version>7.9</version>
 
 </dependency>
 
