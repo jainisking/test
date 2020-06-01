@@ -3825,11 +3825,11 @@
     <version>0.9.1</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-bundle -->
-<dependency>
+<!--<dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-bundle</artifactId>
     <version>1.11.271</version>
-</dependency>
+</dependency>-->
 <!-- https://mvnrepository.com/artifact/com.fasterxml.woodstox/woodstox-core -->
 <dependency>
     <groupId>com.fasterxml.woodstox</groupId>
@@ -7027,11 +7027,11 @@
     <scope>test</scope>
 </dependency>
 <!-- https://mvnrepository.com/artifact/javax/servlet -->
-<dependency>
+<!--<dependency>
     <groupId>javax</groupId>
     <artifactId>servlet</artifactId>
     <version>3.0.0-v201112011016</version>
-</dependency>
+</dependency>-->
 <!-- https://mvnrepository.com/artifact/org.eclipse.jetty.websocket/websocket-api -->
 <dependency>
     <groupId>org.eclipse.jetty.websocket</groupId>
