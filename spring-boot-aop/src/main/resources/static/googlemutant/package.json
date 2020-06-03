@@ -18,6 +18,6 @@
   "author": "Iván Sánchez Ortega <ivan@sanchezortega.es>",
   "license": "Beerware",
   "devDependencies": {
-    "eslint": "^3.8.1"
+    "eslint": "^4.18.2"
   }
 }
