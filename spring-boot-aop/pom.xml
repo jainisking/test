@@ -937,7 +937,7 @@
 
     <artifactId>groovy</artifactId>
 
-    <version>2.5.8</version>
+    <version>2.5.14</version>
 
 </dependency>
 
@@ -3038,7 +3038,7 @@
 <dependency>
     <groupId>org.codehaus.groovy</groupId>
     <artifactId>groovy</artifactId>
-    <version>2.5.4</version>
+    <version>2.5.14</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-core -->
 <dependency>
@@ -8020,7 +8020,7 @@
 <dependency>
     <groupId>org.codehaus.groovy</groupId>
     <artifactId>groovy</artifactId>
-    <version>2.4.14</version>
+    <version>2.5.14</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.codehaus.jackson/jackson-core-asl -->
 <dependency>
