@@ -547,7 +547,7 @@
 
     <artifactId>guava</artifactId>
 
-    <version>28.1-jre</version>
+    <version>29.0-jre</version>
 
 </dependency>
 
@@ -3877,7 +3877,7 @@
 <dependency>
     <groupId>com.google.guava</groupId>
     <artifactId>guava</artifactId>
-    <version>28.2-android</version>
+    <version>29.0-jre</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.codehaus.woodstox/woodstox-core-asl -->
 <dependency>
@@ -4906,7 +4906,7 @@
 <dependency>
     <groupId>com.google.guava</groupId>
     <artifactId>guava</artifactId>
-    <version>18.0</version>
+    <version>29.0-jre</version>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
@@ -7381,7 +7381,7 @@
 <dependency>
     <groupId>com.google.guava</groupId>
     <artifactId>guava</artifactId>
-    <version>21.0</version>
+    <version>29.0-jre</version>
 </dependency>
 
 
@@ -7852,7 +7852,7 @@
 <dependency>
     <groupId>com.google.guava</groupId>
     <artifactId>guava</artifactId>
-    <version>15.0</version>
+    <version>29.0-jre</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
 <dependency>
@@ -9307,7 +9307,7 @@
 <dependency>
     <groupId>com.google.guava</groupId>
     <artifactId>guava</artifactId>
-    <version>21.0</version>
+    <version>29.0-jre</version>
 </dependency>
 
 <dependency>
@@ -10101,7 +10101,7 @@
 <dependency>
     <groupId>com.google.guava</groupId>
     <artifactId>guava</artifactId>
-    <version>21.0</version>
+    <version>29.0-jre</version>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
