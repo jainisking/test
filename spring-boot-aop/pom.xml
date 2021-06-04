@@ -4997,7 +4997,7 @@
 <dependency>
     <groupId>org.apache.httpcomponents</groupId>
     <artifactId>httpclient</artifactId>
-    <version>4.3.5</version>
+    <version>4.5.13</version>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka -->
@@ -6222,7 +6222,7 @@
 <dependency>
     <groupId>org.apache.httpcomponents</groupId>
     <artifactId>httpclient</artifactId>
-    <version>4.5.12</version>
+    <version>4.5.13</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpmime -->
 <dependency>
@@ -6851,7 +6851,7 @@
 <dependency>
     <groupId>org.apache.httpcomponents</groupId>
     <artifactId>httpclient</artifactId>
-    <version>4.5.1</version>
+    <version>4.5.13</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.apache.orc/orc-core -->
 <dependency>
@@ -7996,7 +7996,7 @@
 <dependency>
     <groupId>org.apache.httpcomponents</groupId>
     <artifactId>httpclient</artifactId>
-    <version>4.5.4</version>
+    <version>4.5.13</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.apache.ivy/ivy -->
 <dependency>
@@ -10047,7 +10047,7 @@
 <dependency>
     <groupId>org.apache.httpcomponents</groupId>
     <artifactId>httpclient</artifactId>
-    <version>4.5.3</version>
+    <version>4.5.13</version>
 </dependency>
 
 
