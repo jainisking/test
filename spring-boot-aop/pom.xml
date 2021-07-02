@@ -2877,7 +2877,7 @@
 <dependency>
     <groupId>org.elasticsearch</groupId>
     <artifactId>elasticsearch</artifactId>
-    <version>6.8.6</version>
+    <version>6.8.15</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.hsqldb/hsqldb -->
 <dependency>
@@ -8977,7 +8977,7 @@
 <dependency>
     <groupId>org.elasticsearch</groupId>
     <artifactId>elasticsearch</artifactId>
-    <version>2.3.0</version>
+    <version>6.8.15</version>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.elasticsearch.client/rest -->
@@ -9537,7 +9537,7 @@
 <dependency>
     <groupId>org.elasticsearch</groupId>
     <artifactId>elasticsearch</artifactId>
-    <version>7.5.0</version>
+    <version>6.8.15</version>
 </dependency>
 
 
