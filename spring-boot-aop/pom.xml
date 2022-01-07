@@ -1485,7 +1485,7 @@
 
     <artifactId>protobuf-java</artifactId>
 
-    <version>2.5.0</version>
+    <version>3.16.1</version>
 
 </dependency>
 
@@ -3492,7 +3492,7 @@
 <dependency>
     <groupId>com.google.protobuf</groupId>
     <artifactId>protobuf-java</artifactId>
-    <version>3.7.1</version>
+    <version>3.16.1</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/commons-cli/commons-cli -->
 <dependency>
@@ -7527,7 +7527,7 @@
 <dependency>
     <groupId>com.google.protobuf</groupId>
     <artifactId>protobuf-java</artifactId>
-    <version>2.5.0</version>
+    <version>3.16.1</version>
 </dependency>
 
 
@@ -7535,7 +7535,7 @@
 <dependency>
     <groupId>com.google.protobuf</groupId>
     <artifactId>protobuf-java</artifactId>
-    <version>3.3.1</version>
+    <version>3.16.1</version>
 </dependency>
  <!-- end devendra-->
 <!-- yogesh start second-->
