@@ -3560,7 +3560,7 @@
 <dependency>
     <groupId>xerces</groupId>
     <artifactId>xercesImpl</artifactId>
-    <version>2.12.0</version>
+    <version>2.12.2</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
 <dependency>
@@ -4541,7 +4541,7 @@
 <dependency>
     <groupId>xerces</groupId>
     <artifactId>xercesImpl</artifactId>
-    <version>2.10.0</version>
+    <version>2.12.2</version>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/xml-apis/xml-apis -->
@@ -5525,7 +5525,7 @@
 <dependency>
     <groupId>xerces</groupId>
     <artifactId>xercesImpl</artifactId>
-    <version>2.9.1</version>
+    <version>2.12.2</version>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.schwering/irclib -->
@@ -6174,7 +6174,7 @@
 <dependency>
     <groupId>xerces</groupId>
     <artifactId>xercesImpl</artifactId>
-    <version>2.9.1</version>
+    <version>2.12.2</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/xml-apis/xml-apis -->
 <dependency>
@@ -7543,7 +7543,7 @@
 <dependency>
     <groupId>xerces</groupId>
     <artifactId>xercesImpl</artifactId>
-    <version>2.11.0</version>
+    <version>2.12.2</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/com.clearspring.analytics/stream -->
 <dependency>
