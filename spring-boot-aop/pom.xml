@@ -412,7 +412,7 @@
 <dependency>
     <groupId>com.github.junrar</groupId>
     <artifactId>junrar</artifactId>
-    <version>4.0.0</version>
+    <version>7.4.1</version>
 </dependency>
 
 <!-- Bouncy Castle https://mvnrepository.com/artifact/org.bouncycastle/bcpkix-jdk15on -->
@@ -1377,7 +1377,7 @@
 
     <artifactId>junrar</artifactId>
 
-    <version>4.0.0</version>
+    <version>7.4.1</version>
 
 </dependency>
 
