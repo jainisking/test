@@ -8152,7 +8152,7 @@
 <dependency>
     <groupId>com.predic8</groupId>
     <artifactId>soa-model-parent</artifactId>
-    <version>1.6.0</version>
+    <version>1.6.4</version>
     <type>pom</type>
 </dependency>
 
