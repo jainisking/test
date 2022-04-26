@@ -2902,7 +2902,7 @@
 <dependency>
     <groupId>org.owasp.antisamy</groupId>
     <artifactId>antisamy</artifactId>
-    <version>1.5.8</version>
+    <version>1.6.7</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.snmp4j/snmp4j -->
 <dependency>
@@ -7133,7 +7133,7 @@
 <dependency>
     <groupId>org.owasp.antisamy</groupId>
     <artifactId>antisamy</artifactId>
-    <version>1.4.3</version>
+    <version>1.6.7</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/postgresql/postgresql -->
 <dependency>
