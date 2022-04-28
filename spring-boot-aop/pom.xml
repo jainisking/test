@@ -6919,7 +6919,7 @@
 <dependency>
     <groupId>org.keycloak</groupId>
     <artifactId>keycloak-core</artifactId>
-    <version>9.0.3</version>
+    <version>17.0.1</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.liquibase/liquibase-core -->
 <!--<dependency>
