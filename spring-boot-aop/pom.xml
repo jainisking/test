@@ -2743,7 +2743,7 @@
 
     <artifactId>libthrift</artifactId>
 
-    <version>0.9.0</version>
+    <version>0.14.0</version>
 
     <type>pom</type>
 
