@@ -3736,7 +3736,7 @@
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot</artifactId>
-    <version>2.2.6.RELEASE</version>
+    <version>2.2.11.RELEASE</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.thymeleaf.extras/thymeleaf-extras-java8time -->
 <dependency>
@@ -4457,7 +4457,7 @@
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot</artifactId>
-    <version>2.2.0.RELEASE</version>
+    <version>2.2.11.RELEASE</version>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.springframework.ldap/spring-ldap-core -->
@@ -6422,7 +6422,7 @@
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot</artifactId>
-    <version>2.2.2.RELEASE</version>
+    <version>2.2.11.RELEASE</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-aop -->
 <dependency>
@@ -6938,7 +6938,7 @@
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot</artifactId>
-    <version>1.5.11.RELEASE</version>
+    <version>2.2.11.RELEASE</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-commons -->
 <dependency>
