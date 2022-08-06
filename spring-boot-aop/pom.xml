@@ -6832,7 +6832,7 @@
 <dependency>
     <groupId>org.apache.calcite.avatica</groupId>
     <artifactId>avatica-core</artifactId>
-    <version>1.12.0</version>
+    <version>1.22.0</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.apache.cassandra/cassandra-all -->
 <dependency>
