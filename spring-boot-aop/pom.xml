@@ -6271,7 +6271,7 @@
 <dependency>
     <groupId>com.fasterxml.jackson.core</groupId>
     <artifactId>jackson-databind</artifactId>
-    <version>2.10.1</version>
+    <version>2.12.7.1</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jdk8 -->
 <dependency>
@@ -7280,7 +7280,7 @@
 <dependency>
     <groupId>com.fasterxml.jackson.core</groupId>
     <artifactId>jackson-databind</artifactId>
-    <version>2.9.10</version>
+    <version>2.12.7.1</version>
 </dependency>
 
 
