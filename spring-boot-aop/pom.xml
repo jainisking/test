@@ -5278,7 +5278,7 @@
 <dependency>
     <groupId>org.jgroups</groupId>
     <artifactId>jgroups</artifactId>
-    <version>3.6.8.Final</version>
+    <version>3.6.10.Final</version>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/tomcat/jasper-compiler -->
@@ -6084,7 +6084,7 @@
 <dependency>
     <groupId>org.jgroups</groupId>
     <artifactId>jgroups</artifactId>
-    <version>3.6.8.Final</version>
+    <version>3.6.10.Final</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.jruby.jcodings/jcodings -->
 <dependency>
