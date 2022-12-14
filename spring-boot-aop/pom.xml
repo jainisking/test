@@ -4498,7 +4498,7 @@
 <dependency>
     <groupId>org.yaml</groupId>
     <artifactId>snakeyaml</artifactId>
-    <version>1.25</version>
+    <version>1.32</version>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/postgresql/postgresql -->
@@ -6969,7 +6969,7 @@
 <dependency>
     <groupId>org.yaml</groupId>
     <artifactId>snakeyaml</artifactId>
-    <version>1.16</version>
+    <version>1.32</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.codehaus.plexus/plexus-utils -->
 <dependency>
@@ -8134,7 +8134,7 @@
 <dependency>
     <groupId>org.yaml</groupId>
     <artifactId>snakeyaml</artifactId>
-    <version>1.15</version>
+    <version>1.32</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/stax/stax-api -->
 <dependency>
@@ -9374,7 +9374,7 @@
 <dependency>
     <groupId>org.yaml</groupId>
     <artifactId>snakeyaml</artifactId>
-    <version>1.14</version>
+    <version>1.32</version>
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client -->
